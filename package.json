@@ -9,6 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "main": "./projects/src/public-api.ts",
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.9",
