@@ -4,13 +4,13 @@ import { FormBuilder, Validators } from '@angular/forms';
 import *  as _ from 'lodash';
 
 @Component({
-  selector: 'app-form-builder',
-  templateUrl: './form-builder.component.html'
+  selector: 'test-test',
+  templateUrl: './test.component.html'
 })
 export class TestComponent implements OnInit {
 
     ngOnInit(): void {
-        throw new Error("Method not implemented.");
+        console.log('this is just a test')
     }
 
 }
