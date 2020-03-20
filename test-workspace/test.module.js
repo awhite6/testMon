@@ -5,7 +5,7 @@ import { TestComponent } from './components/test/test.component'
 var TestModule = /** @class */ (function () {
     function TestModule() {
     }
-    FormioModule.decorators = [
+    TestModule.decorators = [
         { type: NgModule, args: [{
                     declarations: [
                         TestComponent
