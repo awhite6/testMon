@@ -22,5 +22,9 @@
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
-  }
+  },
+  "include": [
+    "components/test/test.component.ts",
+    "components/test/test.component.html"
+  ]
 }
