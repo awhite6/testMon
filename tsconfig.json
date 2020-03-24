@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "my-lib": [
-        "dist/my-lib"
+      "test-lib": [
+        "dist/test-lib"
       ],
-      "my-lib/*": [
-        "dist/my-lib/*"
+      "test-lib/*": [
+        "dist/test-lib/*"
       ]
     }
   },
