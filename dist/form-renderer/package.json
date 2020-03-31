@@ -1,0 +1,21 @@
+{
+  "name": "form-renderer",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/form-renderer.umd.js",
+  "module": "fesm5/form-renderer.js",
+  "es2015": "fesm2015/form-renderer.js",
+  "esm5": "esm5/form-renderer.js",
+  "esm2015": "esm2015/form-renderer.js",
+  "fesm5": "fesm5/form-renderer.js",
+  "fesm2015": "fesm2015/form-renderer.js",
+  "typings": "form-renderer.d.ts",
+  "metadata": "form-renderer.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

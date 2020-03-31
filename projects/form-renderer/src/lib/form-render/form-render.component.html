@@ -1,0 +1,21 @@
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://unpkg.com/formiojs@latest/dist/formio.full.min.css'>
+<script src='https://unpkg.com/formiojs@latest/dist/formio.full.min.js'></script>
+
+<section>
+  <mat-card-title>Display Saved Form</mat-card-title>
+  <mat-card>
+    <mat-card-content>
+      <div *ngIf="formSrc">
+        <formio [form]="formSrc" (formLoad)="onFormLoad($event)" [submission]='{
+  "data": {
+    "firstName": "Joe",
+    "lastName": "Smith",
+    "email": "joe@example.com"
+  }
+}'></formio>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</section>
+
