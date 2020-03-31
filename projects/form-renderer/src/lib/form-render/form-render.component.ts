@@ -1,6 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { UCMService } from '../services/ucm.service';
-import { ActivatedRoute } from '@angular/router';
 import { Form } from '../form';
 
 @Component({
