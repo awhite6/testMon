@@ -24,6 +24,12 @@
       ],
       "test-lib/*": [
         "dist/test-lib/*"
+      ],
+      "form-renderer": [
+        "dist/form-renderer"
+      ],
+      "form-renderer/*": [
+        "dist/form-renderer/*"
       ]
     }
   },
