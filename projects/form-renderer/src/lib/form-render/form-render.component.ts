@@ -15,7 +15,7 @@ public frm = null;
 ngOnInit() {
     if (this.formJson) {
         console.log(this.formJson);
-        this.formSrc = this.formJson;
+        this.formSrc = JSON.parse(this.formJson);
     }
 }
 
