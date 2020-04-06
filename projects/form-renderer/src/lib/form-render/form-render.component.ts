@@ -8,8 +8,11 @@ import { Form } from '../form';
 })
 export class FormRenderComponent implements OnInit {
 
+@Input()
 formSrc: Form;
+@Input()
 formJson: any;
+
 public frm = null;
 
 ngOnInit() {

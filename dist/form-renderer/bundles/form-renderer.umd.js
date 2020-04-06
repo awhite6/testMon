@@ -6,6 +6,21 @@
 
     /**
      * @fileoverview added by tsickle
+     * Generated from: lib/form.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+    var Form = /** @class */ (function () {
+        function Form() {
+        }
+        return Form;
+    }());
+    if (false) {
+        /** @type {?} */
+        Form.prototype.components;
+    }
+
+    /**
+     * @fileoverview added by tsickle
      * Generated from: lib/form-render/form-render.component.ts
      * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
@@ -42,6 +57,10 @@
                         styles: [""]
                     }] }
         ];
+        FormRenderComponent.propDecorators = {
+            formSrc: [{ type: core.Input }],
+            formJson: [{ type: core.Input }]
+        };
         return FormRenderComponent;
     }());
     if (false) {

@@ -1,7 +1,22 @@
-import { Component, NgModule } from '@angular/core';
+import { Component, Input, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatCardModule } from '@angular/material';
 import { FormioModule } from 'angular-formio';
+
+/**
+ * @fileoverview added by tsickle
+ * Generated from: lib/form.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+var Form = /** @class */ (function () {
+    function Form() {
+    }
+    return Form;
+}());
+if (false) {
+    /** @type {?} */
+    Form.prototype.components;
+}
 
 /**
  * @fileoverview added by tsickle
@@ -41,6 +56,10 @@ var FormRenderComponent = /** @class */ (function () {
                     styles: [""]
                 }] }
     ];
+    FormRenderComponent.propDecorators = {
+        formSrc: [{ type: Input }],
+        formJson: [{ type: Input }]
+    };
     return FormRenderComponent;
 }());
 if (false) {
