@@ -5,5 +5,4 @@ export declare class FormRenderComponent implements OnInit {
     formJson: any;
     frm: any;
     ngOnInit(): void;
-    onFormLoad(form: any): void;
 }
