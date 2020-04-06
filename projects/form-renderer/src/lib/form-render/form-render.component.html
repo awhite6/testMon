@@ -7,7 +7,7 @@
   <mat-card>
     <mat-card-content>
       <div *ngIf="formSrc">
-        <formio [form]="formSrc" (formLoad)="onFormLoad($event)" [submission]='{
+        <formio [form]="formSrc" [submission]='{
   "data": {
     "firstName": "Joe",
     "lastName": "Smith",
